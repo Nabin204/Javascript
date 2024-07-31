@@ -1,0 +1,10 @@
+const prompt = require('prompt-sync')();
+let a=parseInt(prompt("Enter the value of a:"));
+let b=parseInt(prompt("Enter the value of b:"));
+console.log("The value of 'a' before swapping is:",a);
+console.log("The value of 'b' before swapping is:",b);
+let c=a;
+a=b;
+b=c;
+console.log("The value of 'a' after swapping is:",a);
+console.log("The value of 'b' after swapping is:",b);
