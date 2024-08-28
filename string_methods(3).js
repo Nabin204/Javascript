@@ -1,0 +1,25 @@
+let a="Javascript Programming is FUN.";
+let b="Nabin";
+console.log(a.charAt(4));
+console.log(a.charCodeAt(1));
+console.log(a.length);
+console.log(a.toLowerCase());
+console.log(a.toUpperCase());
+console.log(a.slice(2,8));
+console.log(a.search('o'));
+console.log(a.search('F'));
+console.log(a.codePointAt(3));
+console.log(a.charCodeAt(11));
+console.log(a.endsWith('.'));
+console.log(a.endsWith('N'));
+console.log(a.startsWith('j'));
+console.log(a.startsWith('J'));
+console.log(a.includes('z'));
+console.log(a.includes('J'));
+console.log(a.concat(b));
+console.log(a.concat(a+b));
+console.log(a.concat(a,b));
+console.log(a.indexOf('i',8));
+console.log(a.indexOf("a"));
+console.log(a.lastIndexOf("a"));
+
